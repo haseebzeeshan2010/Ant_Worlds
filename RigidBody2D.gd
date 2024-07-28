@@ -11,18 +11,22 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
-	apply_central_force(global_transform.y*5000)
-	
-	var direction = Input.get_axis("ui_left", "ui_right")
-	if direction == 1:
-		apply_central_force(global_transform.x*800)
-		#%RayCast2D.set_target_position(Vector2(85.845,150))
-		dir = true
-	
-	elif direction == -1:
-		apply_central_force(global_transform.x*-800)
-		#%RayCast2D.set_target_position(Vector2(-85.845,150))
-		dir = false
+	if len(%Floor.get_overlapping_bodies()) >1:
+		apply_central_force(global_transform.y*500)
+		
+		var direction = Input.get_axis("ui_left", "ui_right")
+		if direction == 1:
+			apply_central_force(global_transform.x*400)
+			#%RayCast2D.set_target_position(Vector2(85.845,150))
+			dir = true
+		
+		elif direction == -1:
+			apply_central_force(global_transform.x*-400)
+			#%RayCast2D.set_target_position(Vector2(-85.845,150))
+			dir = false
+	else:
+		#apply_central_force(Vector2(0,700))
+		rotation = lerp_angle(rotation,rotation*0, delta)
 	#else:
 		#%RayCast2D.set_target_position(Vector2(-20,100))
 	#print(sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/35)
@@ -38,6 +42,7 @@ func _physics_process(delta):
 		#%Marker2D.look_at(%MeshInstance2D.global_position)
 		#%Node2D.rotation = lerp_angle(%Node2D.rotation, %Marker2D.rotation, delta/2)
 	
+		print("Floor")
 	pass
 	
 #Keep Speed Under a Max Value

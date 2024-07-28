@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://bjbbtyryw1rjw"]
+[gd_scene load_steps=11 format=3 uid="uid://bjbbtyryw1rjw"]
 
 [ext_resource type="PackedScene" uid="uid://cc5vd3dk8pc6f" path="res://ant.tscn" id="1_1ccvl"]
 [ext_resource type="Script" path="res://RigidBody2D.gd" id="1_f74ot"]
@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cpgka5sr8ddyx" path="res://ant_scene.png" id="4_d0x5c"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ja04s"]
-friction = 0.0
+friction = 0.1
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_auea1"]
 radius = 25.0
@@ -15,6 +15,9 @@ height = 95.7
 [sub_resource type="SphereMesh" id="SphereMesh_4ldyl"]
 radius = 50.0
 height = 100.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nd6fw"]
+size = Vector2(72, 8)
 
 [sub_resource type="BoxMesh" id="BoxMesh_k8a5e"]
 size = Vector3(2000, 100, 1)
@@ -26,8 +29,12 @@ size = Vector2(2000, 100)
 
 [node name="Player" type="RigidBody2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(635, 470)
+position = Vector2(635, 494)
+mass = 0.2
 physics_material_override = SubResource("PhysicsMaterial_ja04s")
+gravity_scale = 0.7
+center_of_mass_mode = 1
+center_of_mass = Vector2(0, 5.05)
 linear_damp = 1.0
 script = ExtResource("1_f74ot")
 
@@ -47,8 +54,13 @@ visible = false
 top_level = true
 mesh = SubResource("SphereMesh_4ldyl")
 
-[node name="Marker2D" type="Marker2D" parent="Player"]
+[node name="Floor" type="Area2D" parent="Player"]
 unique_name_in_owner = true
+position = Vector2(0, 37)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Floor"]
+position = Vector2(-7, -5)
+shape = SubResource("RectangleShape2D_nd6fw")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 visible = false
