@@ -1,0 +1,1093 @@
+[gd_scene load_steps=11 format=3 uid="uid://cc5vd3dk8pc6f"]
+
+[ext_resource type="Texture2D" uid="uid://cw4kaakrus2cy" path="res://bitmap1.svg" id="1"]
+
+[sub_resource type="Animation" id="1"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Node2D/Leg2/Bitmap1/Bitmap1:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1051.78)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Node2D/Leg2/Bitmap1/Bitmap1:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-9.87874]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Node2D/Leg2/Bitmap1:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Node2D/Leg2/Bitmap1:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [33.1527]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Node2D/Leg2:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-2, 4)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Node2D/Leg2:rotation_degrees")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-23.5831]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Node2D/Leg6/Bitmap1/Bitmap1:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1051.78)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Node2D/Leg6/Bitmap1/Bitmap1:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-116.5]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Node2D/Leg6/Bitmap1:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Node2D/Leg6/Bitmap1:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-35.8961]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Node2D/Leg6:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-49.7525, 4)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Node2D/Leg6:rotation_degrees")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [63.3301]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Node2D/Leg3/Bitmap1/Bitmap1:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1051.78)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Node2D/Leg3/Bitmap1/Bitmap1:rotation_degrees")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-139.878]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Node2D/Leg3/Bitmap1:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Node2D/Leg3/Bitmap1:rotation_degrees")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [57.1264]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Node2D/Leg3:position")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-49.7525, 4)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Node2D/Leg3:rotation_degrees")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-7.76445]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Node2D/Leg4/Bitmap1/Bitmap1:position")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1051.78)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Node2D/Leg4/Bitmap1/Bitmap1:rotation_degrees")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-78.7994]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Node2D/Leg4/Bitmap1:position")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("Node2D/Leg4/Bitmap1:rotation_degrees")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-80.1786]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("Node2D/Leg4:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-49.7525, 4)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("Node2D/Leg4:rotation_degrees")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [69.3215]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("Node2D/Leg5/Bitmap1/Bitmap1:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1051.78)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("Node2D/Leg5/Bitmap1/Bitmap1:rotation_degrees")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-69.7793]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("Node2D/Leg5/Bitmap1:position")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090)]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("Node2D/Leg5/Bitmap1:rotation_degrees")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-78.9675]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("Node2D/Leg5:position")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-2, 4)]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("Node2D/Leg5:rotation_degrees")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [57.6038]
+}
+tracks/30/type = "value"
+tracks/30/imported = false
+tracks/30/enabled = true
+tracks/30/path = NodePath("Node2D/Leg/Bitmap1/Bitmap1:position")
+tracks/30/interp = 1
+tracks/30/loop_wrap = true
+tracks/30/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 1051.78)]
+}
+tracks/31/type = "value"
+tracks/31/imported = false
+tracks/31/enabled = true
+tracks/31/path = NodePath("Node2D/Leg/Bitmap1/Bitmap1:rotation_degrees")
+tracks/31/interp = 1
+tracks/31/loop_wrap = true
+tracks/31/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-73.4603]
+}
+tracks/32/type = "value"
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/path = NodePath("Node2D/Leg/Bitmap1:position")
+tracks/32/interp = 1
+tracks/32/loop_wrap = true
+tracks/32/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090)]
+}
+tracks/33/type = "value"
+tracks/33/imported = false
+tracks/33/enabled = true
+tracks/33/path = NodePath("Node2D/Leg/Bitmap1:rotation_degrees")
+tracks/33/interp = 1
+tracks/33/loop_wrap = true
+tracks/33/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [45.4629]
+}
+tracks/34/type = "value"
+tracks/34/imported = false
+tracks/34/enabled = true
+tracks/34/path = NodePath("Node2D/Leg:position")
+tracks/34/interp = 1
+tracks/34/loop_wrap = true
+tracks/34/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-2, 4)]
+}
+tracks/35/type = "value"
+tracks/35/imported = false
+tracks/35/enabled = true
+tracks/35/path = NodePath("Node2D/Leg:rotation_degrees")
+tracks/35/interp = 1
+tracks/35/loop_wrap = true
+tracks/35/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-62.7867]
+}
+
+[sub_resource type="Animation" id="2"]
+resource_name = "Walk"
+length = 5.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Node2D/Leg2/Bitmap1/Bitmap1:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Node2D/Leg2/Bitmap1/Bitmap1:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-9.87874, -6.18296, -44.0708, -26.1623, 4.62484, 0.144175, -2.99745, -48.4136, -29.5811, -17.2991]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Node2D/Leg2/Bitmap1:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Node2D/Leg2/Bitmap1:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [33.1527, 6.43919, 58.2686, 87.8273, 31.5152, 19.7172, 3.00259, 56.9342, 74.1389, 74.4561]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Node2D/Leg2:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Node2D/Leg2:rotation_degrees")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-23.5831, -0.0550737, -13.8763, -61.3435, -35.8201, -19.0516, 0.699101, -7.81637, -44.1659, -57.1156]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Node2D/Leg6/Bitmap1/Bitmap1:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Node2D/Leg6/Bitmap1/Bitmap1:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-116.5, -108.616, -87.4917, -78.6837, -89.6591, -113.985, -125.075, -92.2447, -82.6719, -99.5858]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Node2D/Leg6/Bitmap1:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Node2D/Leg6/Bitmap1:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-35.8961, -71.3143, -80.7467, -73.532, -64.4856, -30.4662, -6.50594, -75.4626, -69.2604, -52.5782]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Node2D/Leg6:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Node2D/Leg6:rotation_degrees")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [63.3301, 90.2406, 78.2569, 62.2342, 64.4566, 54.2861, 41.6091, 77.736, 61.6841, 62.5071]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Node2D/Leg3/Bitmap1/Bitmap1:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Node2D/Leg3/Bitmap1/Bitmap1:rotation_degrees")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-139.878, -140.946, -140.946, -152.193, -152.193, -135.455, -108.231, -97.299, -114.86, -127.369]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Node2D/Leg3/Bitmap1:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Node2D/Leg3/Bitmap1:rotation_degrees")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [57.1264, 46.1963, 46.1963, 97.0398, 97.0398, 100.682, 91.2168, 68.2413, 75.5457, 66.3361]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Node2D/Leg3:position")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Node2D/Leg3:rotation_degrees")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-7.76445, 4.2054, 4.2054, -35.1492, -35.1492, -55.2831, -73.1254, -61.2324, -50.313, -29.0387]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Node2D/Leg4/Bitmap1/Bitmap1:position")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Node2D/Leg4/Bitmap1/Bitmap1:rotation_degrees")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-78.7994, -89.0269, -115.485, -104.156, -73.7889, -86.4158, -99.2619, -111.222, -76.724, -62.8629]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("Node2D/Leg4/Bitmap1:position")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("Node2D/Leg4/Bitmap1:rotation_degrees")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-80.1786, -68.8059, -30.2406, -61.4704, -75.104, -66.2685, -51.6617, -31.8384, -93.9763, -102.46]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("Node2D/Leg4:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4), Vector2(-49.7525, 4)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("Node2D/Leg4:rotation_degrees")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [69.3215, 68.4691, 56.5173, 76.4176, 59.6844, 63.7634, 62.0027, 54.588, 81.9366, 75.8212]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("Node2D/Leg5/Bitmap1/Bitmap1:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("Node2D/Leg5/Bitmap1/Bitmap1:rotation_degrees")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-69.7793, -80.043, -94.0627, -115.107, -125.877, -114.616, -84.1908, -72.7108, -90.7601, -55.372]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("Node2D/Leg5/Bitmap1:position")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090)]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("Node2D/Leg5/Bitmap1:rotation_degrees")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-78.9675, -74.4233, -61.9114, -28.7658, -5.78502, -53.2815, -83.3444, -75.5789, -61.9971, -104.468]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("Node2D/Leg5:position")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4)]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("Node2D/Leg5:rotation_degrees")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [57.6038, 63.5964, 65.4066, 54.1609, 42.0838, 78.2416, 77.8797, 59.0493, 63.8151, 69.6916]
+}
+tracks/30/type = "value"
+tracks/30/imported = false
+tracks/30/enabled = true
+tracks/30/path = NodePath("Node2D/Leg/Bitmap1/Bitmap1:position")
+tracks/30/interp = 1
+tracks/30/loop_wrap = true
+tracks/30/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78), Vector2(0, 1051.78)]
+}
+tracks/31/type = "value"
+tracks/31/imported = false
+tracks/31/enabled = true
+tracks/31/path = NodePath("Node2D/Leg/Bitmap1/Bitmap1:rotation_degrees")
+tracks/31/interp = 1
+tracks/31/loop_wrap = true
+tracks/31/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-73.4603, -89.3055, -104.56, -116.715, -121.901, -125.497, -134.497, -136.946, -144.956, -111.13]
+}
+tracks/32/type = "value"
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/path = NodePath("Node2D/Leg/Bitmap1:position")
+tracks/32/interp = 1
+tracks/32/loop_wrap = true
+tracks/32/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090), Vector2(-1.35525e-19, 1090)]
+}
+tracks/33/type = "value"
+tracks/33/imported = false
+tracks/33/enabled = true
+tracks/33/path = NodePath("Node2D/Leg/Bitmap1:rotation_degrees")
+tracks/33/interp = 1
+tracks/33/loop_wrap = true
+tracks/33/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [45.4629, 66.6989, 78.7538, 82.1655, 81.6263, 75.6902, 63.6637, 45.1617, 24.5028, 78.7147]
+}
+tracks/34/type = "value"
+tracks/34/imported = false
+tracks/34/enabled = true
+tracks/34/path = NodePath("Node2D/Leg:position")
+tracks/34/interp = 1
+tracks/34/loop_wrap = true
+tracks/34/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4), Vector2(-2, 4)]
+}
+tracks/35/type = "value"
+tracks/35/imported = false
+tracks/35/enabled = true
+tracks/35/path = NodePath("Node2D/Leg:rotation_degrees")
+tracks/35/interp = 1
+tracks/35/loop_wrap = true
+tracks/35/keys = {
+"times": PackedFloat32Array(0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-62.7867, -67.8808, -64.4103, -55.4229, -49.6977, -40.1657, -19.1391, 1.81213, 30.1831, -58.3668]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rbi6v"]
+_data = {
+"RESET": SubResource("1"),
+"Walk": SubResource("2")
+}
+
+[sub_resource type="BoxMesh" id="3"]
+size = Vector3(111.46, 18.204, 2)
+
+[sub_resource type="SphereMesh" id="4"]
+radius = 50.856
+height = 74.237
+
+[sub_resource type="SphereMesh" id="5"]
+radius = 61.588
+height = 77.316
+
+[sub_resource type="SphereMesh" id="6"]
+radius = 15.0
+height = 30.0
+
+[sub_resource type="SphereMesh" id="7"]
+radius = 5.0
+height = 10.0
+
+[sub_resource type="BoxMesh" id="8"]
+size = Vector3(20, 5, 2)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+rotation = 1.5708
+
+[node name="Leg" type="Sprite2D" parent="Node2D"]
+self_modulate = Color(2.89, 2.91, 1.15, 1)
+position = Vector2(-2, 4)
+rotation = -1.09583
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1")
+offset = Vector2(3.8147e-05, 560)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg"]
+position = Vector2(-1.35525e-19, 1090)
+rotation = 0.793477
+scale = Vector2(1, 1.854)
+texture = ExtResource("1")
+offset = Vector2(8.07793e-27, 540.12)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg/Bitmap1"]
+position = Vector2(0, 1051.78)
+rotation = -1.28212
+scale = Vector2(0.637, 0.377)
+offset = Vector2(0, 392.65)
+
+[node name="Leg5" type="Sprite2D" parent="Node2D"]
+self_modulate = Color(2.89, 2.91, 1.15, 1)
+position = Vector2(-2, 4)
+rotation = 1.00538
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1")
+offset = Vector2(3.8147e-05, 560)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg5"]
+position = Vector2(-1.35525e-19, 1090)
+rotation = -1.37824
+scale = Vector2(1, 1.854)
+texture = ExtResource("1")
+offset = Vector2(8.07793e-27, 540.12)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg5/Bitmap1"]
+position = Vector2(0, 1051.78)
+rotation = -1.21788
+scale = Vector2(0.637, 0.377)
+offset = Vector2(0, 392.65)
+
+[node name="Leg2" type="Sprite2D" parent="Node2D"]
+self_modulate = Color(2.89, 2.91, 1.15, 1)
+position = Vector2(-2, 4)
+rotation = -0.411603
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1")
+offset = Vector2(3.8147e-05, 560)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg2"]
+position = Vector2(-1.35525e-19, 1090)
+rotation = 0.578624
+scale = Vector2(1, 1.296)
+texture = ExtResource("1")
+offset = Vector2(8.07793e-27, 540.12)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg2/Bitmap1"]
+position = Vector2(0, 1051.78)
+rotation = -0.172417
+scale = Vector2(0.637, 0.377)
+offset = Vector2(0, 392.65)
+
+[node name="Leg3" type="Sprite2D" parent="Node2D"]
+self_modulate = Color(2.89, 2.91, 1.15, 1)
+position = Vector2(-49.7525, 4)
+rotation = -0.135515
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1")
+offset = Vector2(3.8147e-05, 560)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg3"]
+position = Vector2(-1.35525e-19, 1090)
+rotation = 0.997044
+scale = Vector2(1, 1.854)
+texture = ExtResource("1")
+offset = Vector2(8.07793e-27, 540.12)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg3/Bitmap1"]
+position = Vector2(0, 1051.78)
+rotation = -2.44133
+scale = Vector2(0.637, 0.377)
+offset = Vector2(0, 392.65)
+
+[node name="Leg4" type="Sprite2D" parent="Node2D"]
+self_modulate = Color(2.89, 2.91, 1.15, 1)
+position = Vector2(-49.7525, 4)
+rotation = 1.20989
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1")
+offset = Vector2(3.8147e-05, 560)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg4"]
+position = Vector2(-1.35525e-19, 1090)
+rotation = -1.39938
+scale = Vector2(1, 1.854)
+texture = ExtResource("1")
+offset = Vector2(8.07793e-27, 540.12)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg4/Bitmap1"]
+position = Vector2(0, 1051.78)
+rotation = -1.37531
+scale = Vector2(0.637, 0.377)
+offset = Vector2(0, 392.65)
+
+[node name="Leg6" type="Sprite2D" parent="Node2D"]
+self_modulate = Color(2.89, 2.91, 1.15, 1)
+position = Vector2(-49.7525, 4)
+rotation = 1.10532
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1")
+offset = Vector2(3.8147e-05, 560)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg6"]
+position = Vector2(-1.35525e-19, 1090)
+rotation = -0.626505
+scale = Vector2(1, 1.854)
+texture = ExtResource("1")
+offset = Vector2(8.07793e-27, 540.12)
+
+[node name="Bitmap1" type="Sprite2D" parent="Node2D/Leg6/Bitmap1"]
+position = Vector2(0, 1051.78)
+rotation = -2.03331
+scale = Vector2(0.637, 0.377)
+offset = Vector2(0, 392.65)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Node2D"]
+root_node = NodePath("../..")
+libraries = {
+"": SubResource("AnimationLibrary_rbi6v")
+}
+autoplay = "Walk"
+speed_scale = 0.0
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Node2D"]
+self_modulate = Color(0.827451, 0, 0, 1)
+position = Vector2(-30, 0)
+mesh = SubResource("3")
+
+[node name="MeshInstance2D5" type="MeshInstance2D" parent="Node2D"]
+modulate = Color(0.784314, 0.0823529, 0.0823529, 1)
+position = Vector2(-125, 8)
+rotation = -0.165806
+mesh = SubResource("3")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="Node2D"]
+self_modulate = Color(0.839216, 0.203922, 0.203922, 1)
+position = Vector2(42.1156, -14.0404)
+rotation = -0.549779
+scale = Vector2(0.580494, 1)
+mesh = SubResource("3")
+
+[node name="MeshInstance2D3" type="MeshInstance2D" parent="Node2D"]
+self_modulate = Color(0.831373, 0.192157, 0.192157, 1)
+position = Vector2(97, -57)
+mesh = SubResource("4")
+
+[node name="MeshInstance2D4" type="MeshInstance2D" parent="Node2D"]
+self_modulate = Color(0.796078, 0.203922, 0.203922, 1)
+position = Vector2(-189, 10)
+rotation = -0.10472
+mesh = SubResource("5")
+
+[node name="MeshInstance2D6" type="MeshInstance2D" parent="Node2D"]
+self_modulate = Color(0, 0, 0, 1)
+position = Vector2(107, -60)
+mesh = SubResource("6")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Node2D/MeshInstance2D6"]
+position = Vector2(6, 2)
+mesh = SubResource("7")
+
+[node name="MeshInstance2D7" type="MeshInstance2D" parent="Node2D"]
+self_modulate = Color(0.588235, 0.0980392, 0.0980392, 1)
+z_index = -1
+position = Vector2(150, -45)
+mesh = SubResource("8")
+
+[node name="MeshInstance2D8" type="MeshInstance2D" parent="Node2D"]
+self_modulate = Color(0.588235, 0.0980392, 0.0980392, 1)
+z_index = -1
+position = Vector2(148, -38)
+rotation = 0.47473
+mesh = SubResource("8")
