@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var dir = true
-@export var max_speed = 400.0
+@export var max_speed = 300.0
 
 
 # Called when the node enters the scene tree for the first time.
@@ -12,21 +12,21 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	if len(%Floor.get_overlapping_bodies()) >1:
-		apply_central_force(global_transform.y*500)
+		apply_central_force(global_transform.y*800)
 		
 		var direction = Input.get_axis("ui_left", "ui_right")
 		if direction == 1:
-			apply_central_force(global_transform.x*400)
+			apply_central_force(global_transform.x*350)
 			#%RayCast2D.set_target_position(Vector2(85.845,150))
 			dir = true
 		
 		elif direction == -1:
-			apply_central_force(global_transform.x*-400)
+			apply_central_force(global_transform.x*-350)
 			#%RayCast2D.set_target_position(Vector2(-85.845,150))
 			dir = false
 	else:
 		#apply_central_force(Vector2(0,700))
-		rotation = lerp_angle(rotation,rotation*0, delta)
+		rotation = lerp_angle(rotation,rotation*0, delta*10)
 	#else:
 		#%RayCast2D.set_target_position(Vector2(-20,100))
 	#print(sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/35)
