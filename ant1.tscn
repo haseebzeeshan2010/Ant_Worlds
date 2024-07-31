@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://cc5vd3dk8pc6f"]
+[gd_scene load_steps=6 format=3 uid="uid://botnxd23xjm78"]
 
 [ext_resource type="Texture2D" uid="uid://cw4kaakrus2cy" path="res://bitmap1.svg" id="1"]
-[ext_resource type="Texture2D" uid="uid://xf4lbkbx6ycp" path="res://ant_demo.svg" id="2_2pl11"]
+[ext_resource type="Texture2D" uid="uid://xf4lbkbx6ycp" path="res://ant_demo.svg" id="2_0lr16"]
 
 [sub_resource type="Animation" id="1"]
 length = 0.001
@@ -1028,9 +1028,8 @@ root_node = NodePath("../..")
 libraries = {
 "": SubResource("AnimationLibrary_fqq3h")
 }
-autoplay = "Walk"
 
 [node name="AntDemo" type="Sprite2D" parent="Node2D"]
 position = Vector2(20, -83)
 scale = Vector2(0.5, 0.5)
-texture = ExtResource("2_2pl11")
+texture = ExtResource("2_0lr16")

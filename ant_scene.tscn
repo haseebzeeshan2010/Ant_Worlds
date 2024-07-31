@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bjbbtyryw1rjw"]
+[gd_scene load_steps=12 format=3 uid="uid://bjbbtyryw1rjw"]
 
 [ext_resource type="PackedScene" uid="uid://cc5vd3dk8pc6f" path="res://ant.tscn" id="1_1ccvl"]
 [ext_resource type="Script" path="res://RigidBody2D.gd" id="1_f74ot"]
@@ -7,6 +7,8 @@
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ja04s"]
 friction = 0.1
+bounce = 1.0
+absorbent = true
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_auea1"]
 radius = 25.0
@@ -25,6 +27,10 @@ size = Vector3(2000, 100, 1)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n0adl"]
 size = Vector2(2000, 100)
 
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ticoa"]
+bounce = 1.0
+absorbent = true
+
 [node name="Node2D" type="Node2D"]
 
 [node name="Player" type="RigidBody2D" parent="."]
@@ -40,7 +46,6 @@ script = ExtResource("1_f74ot")
 
 [node name="Node2D" parent="Player" instance=ExtResource("1_1ccvl")]
 unique_name_in_owner = true
-rotation = -1.5708
 scale = Vector2(0.15, 0.15)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
@@ -61,6 +66,9 @@ position = Vector2(0, 37)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Floor"]
 position = Vector2(-7, -4.5)
 shape = SubResource("RectangleShape2D_nd6fw")
+
+[node name="local_mouse_pos" type="Marker2D" parent="Player"]
+unique_name_in_owner = true
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 visible = false
@@ -102,6 +110,7 @@ polygon = PackedVector2Array(1598, 539, 1700, 500, 1793, 423, 1923, 393, 2029, 3
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="."]
 position = Vector2(1354, 0)
+physics_material_override = SubResource("PhysicsMaterial_ticoa")
 
 [node name="AntScene" type="Sprite2D" parent="StaticBody2D3"]
 z_index = -1
@@ -123,4 +132,4 @@ polygon = PackedVector2Array(97, -162, 174, -202, 327, -278, 379, -304, 394, -30
 polygon = PackedVector2Array(-80, 20, -106, 41, -118, 51, -123, 57, -128, 64, -132, 72, -136, 84, -135, 96, -133, 169, -127, 200, -122, 218, -117, 228, -112, 232, -104, 241, -77, 288, -38, 373, -30, 394, -25, 416, -21, 434, -16, 457, -10, 466, -3, 474, 7, 482, 17, 487, 28, 493, 44, 499, -60, 493, -186, 90, -126, 50)
 
 [node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="StaticBody2D3"]
-polygon = PackedVector2Array(39, 499, 60, 500, 108, 502, 119, 503, 131, 506, 172, 518, 234, 535, 332, 561, 390, 575, 415, 580, 425, 580, 451, 578, 491, 575, 608, 564, 702, 554, 740, 553, 729, 659, 15, 633)
+polygon = PackedVector2Array(39, 499, 60, 500, 108, 502, 119, 503, 131, 506, 172, 518, 234, 535, 332, 561, 390, 575, 415, 580, 425, 580, 451, 578, 491, 575, 608, 564, 702, 554, 751, 552, 867, 545, 1087, 524, 1216, 514, 1431, 507, 729, 659, -257, 610)

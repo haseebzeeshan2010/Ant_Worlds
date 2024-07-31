@@ -11,19 +11,25 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
+	%local_mouse_pos.look_at(get_global_mouse_position())
+	
+	
 	if len(%Floor.get_overlapping_bodies()) >1:
 		apply_central_force(global_transform.y*800)
 		
 		var direction = Input.get_axis("ui_left", "ui_right")
 		if direction == 1:
-			apply_central_force(global_transform.x*350)
+			apply_central_force(global_transform.x*700)
 			#%RayCast2D.set_target_position(Vector2(85.845,150))
 			dir = true
 		
 		elif direction == -1:
-			apply_central_force(global_transform.x*-350)
+			apply_central_force(global_transform.x*-700)
 			#%RayCast2D.set_target_position(Vector2(-85.845,150))
 			dir = false
+			
+		
+			
 	else:
 		#apply_central_force(Vector2(0,700))
 		rotation = lerp_angle(rotation,rotation*0, delta*10)
@@ -33,9 +39,9 @@ func _physics_process(delta):
 	#print(get_node("Node2D/Node2D/AnimationPlayer").get_speed_scale())
 	
 	if dir == true:
-		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/35))
+		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/25))
 	elif dir == false:
-		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/35)*-1)
+		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/25)*-1)
 	#if (%RayCast2D.get_collision_normal() != Vector2(0,0)):
 		#%MeshInstance2D.position = global_position+(%RayCast2D.get_collision_normal()*100)
 		##print(%RayCast2D.get_collision_normal()*100)

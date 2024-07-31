@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="47.96624mm"
+   height="28.988785mm"
+   viewBox="0 0 47.96624 28.988785"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><linearGradient
+       id="linearGradient6"><stop
+         style="stop-color:#475336;stop-opacity:1;"
+         offset="0"
+         id="stop6" /><stop
+         style="stop-color:#68784a;stop-opacity:1;"
+         offset="1"
+         id="stop7" /></linearGradient><linearGradient
+       xlink:href="#linearGradient6"
+       id="linearGradient7"
+       x1="118.38901"
+       y1="133.02849"
+       x2="123.15172"
+       y2="133.02849"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(90.516131,118.11161)" /></defs><g
+     id="layer3"
+     transform="translate(-90.516131,-118.11161)"><path
+       style="fill:#68784a;fill-opacity:1;stroke:#637a4c;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 125.05063,133.89113 c 3.55842,-0.48696 2.64301,-0.666 3.55842,-0.48696 0.91542,0.17903 2.1683,0.68816 2.22876,1.17979 0.0605,0.49162 -2.26841,1.25268 -2.26841,1.25268 0,0 -3.1686,1.45655 -4.07299,0.4337 -0.53939,-0.61004 0.55422,-2.37921 0.55422,-2.37921 z"
+       id="path2" /><ellipse
+       style="fill:#859f37;fill-opacity:1;stroke:#a47034;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path1"
+       cx="120.30171"
+       cy="134.63487"
+       rx="5.5257101"
+       ry="4.591248" /><ellipse
+       style="fill:url(#linearGradient7);fill-opacity:1;stroke:#637a4c;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path3"
+       cx="120.77036"
+       cy="133.02849"
+       rx="2.3813529"
+       ry="2.2278771" /></g></svg>

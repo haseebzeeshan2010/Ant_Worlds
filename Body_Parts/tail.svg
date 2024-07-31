@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="47.96624mm"
+   height="28.988785mm"
+   viewBox="0 0 47.96624 28.988785"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><linearGradient
+       id="linearGradient10"><stop
+         style="stop-color:#6f4a36;stop-opacity:1;"
+         offset="0"
+         id="stop10" /><stop
+         style="stop-color:#714b35;stop-opacity:0.26691723;"
+         offset="1"
+         id="stop11" /></linearGradient><linearGradient
+       xlink:href="#linearGradient10"
+       id="linearGradient12"
+       gradientUnits="userSpaceOnUse"
+       x1="178.51079"
+       y1="25.346321"
+       x2="181.4812"
+       y2="25.346321"
+       gradientTransform="matrix(0.19763263,-0.96786181,0.96786181,0.32000548,52.759915,-135.8445)" /></defs><g
+     id="layer6"
+     transform="translate(-90.516131,-118.11161)"><rect
+       style="fill:url(#linearGradient12);fill-opacity:1;stroke:#637a4c;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect12"
+       width="2.9704106"
+       height="11.292595"
+       x="66.091072"
+       y="-159.4296"
+       rx="16.863832"
+       ry="0.55016667"
+       transform="matrix(-0.47236195,0.88140466,-0.84977978,-0.52713787,0,0)" /><ellipse
+       style="fill:#849f37;fill-opacity:1;stroke:#637a4c;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path15"
+       cx="15.761653"
+       cy="164.69521"
+       rx="5.0588288"
+       ry="6.5886769"
+       transform="rotate(-30)" /></g></svg>
