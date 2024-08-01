@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b88t3hhfjrgha"
-path="res://.godot/imported/ant_scene.png-5806b147e6046b779da0a1fb54848777.ctex"
+uid="uid://cpgka5sr8ddyx"
+path="res://.godot/imported/ant_scene1.png-1d8001de135a64b47362d573eee211c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ant_scene.png"
-dest_files=["res://.godot/imported/ant_scene.png-5806b147e6046b779da0a1fb54848777.ctex"]
+source_file="res://ant_scene1.png"
+dest_files=["res://.godot/imported/ant_scene1.png-1d8001de135a64b47362d573eee211c4.ctex"]
 
 [params]
 
