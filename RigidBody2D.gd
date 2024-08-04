@@ -39,9 +39,9 @@ func _physics_process(delta):
 	#print(get_node("Node2D/Node2D/AnimationPlayer").get_speed_scale())
 	
 	if dir == true:
-		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/25))
+		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/21))
 	elif dir == false:
-		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/25)*-1)
+		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/21)*-1)
 	#if (%RayCast2D.get_collision_normal() != Vector2(0,0)):
 		#%MeshInstance2D.position = global_position+(%RayCast2D.get_collision_normal()*100)
 		##print(%RayCast2D.get_collision_normal()*100)
