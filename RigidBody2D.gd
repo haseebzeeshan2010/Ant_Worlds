@@ -11,6 +11,10 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
+	%PathFollow2D.progress += 120*delta 
+	%ant_AI.global_position = %PathFollow2D.global_position
+	%ant_AI.global_rotation = lerp(%ant_AI.global_rotation, %PathFollow2D.global_rotation, delta)
+	
 	%local_mouse_pos.look_at(get_global_mouse_position())
 	
 	
@@ -31,24 +35,25 @@ func _physics_process(delta):
 		
 			
 	else:
-		#apply_central_force(Vector2(0,700))
+
 		rotation = lerp_angle(rotation,rotation*0, delta*10)
-	#else:
-		#%RayCast2D.set_target_position(Vector2(-20,100))
-	#print(sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/35)
-	#print(get_node("Node2D/Node2D/AnimationPlayer").get_speed_scale())
-	
+
+	get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/21))
 	if dir == true:
-		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/21))
+		if %Node2D.transform.x.x < 0.15:
+			%Node2D.transform.x.x += 2*delta
+		else:
+			%Node2D.transform.x.x = 0.15
 	elif dir == false:
-		get_node("Node2D/Node2D/AnimationPlayer").set_speed_scale((sqrt(get_linear_velocity().x**2 + get_linear_velocity().y**2)/21)*-1)
-	#if (%RayCast2D.get_collision_normal() != Vector2(0,0)):
-		#%MeshInstance2D.position = global_position+(%RayCast2D.get_collision_normal()*100)
-		##print(%RayCast2D.get_collision_normal()*100)
-		#%Marker2D.look_at(%MeshInstance2D.global_position)
-		#%Node2D.rotation = lerp_angle(%Node2D.rotation, %Marker2D.rotation, delta/2)
-	
-		print("Floor")
+		if %Node2D.transform.x.x > -0.14:
+			%Node2D.transform.x.x -= 2*delta
+		else:
+			%Node2D.transform.x.x = -0.15
+		
+		
+		
+		
+		
 	pass
 	
 #Keep Speed Under a Max Value
