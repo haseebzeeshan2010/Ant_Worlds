@@ -1029,6 +1029,7 @@ libraries = {
 "": SubResource("AnimationLibrary_fqq3h")
 }
 autoplay = "Walk"
+speed_scale = 10.0
 
 [node name="AntDemo" type="Sprite2D" parent="Node2D"]
 position = Vector2(27, -83)

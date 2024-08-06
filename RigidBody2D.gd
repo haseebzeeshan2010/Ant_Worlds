@@ -11,9 +11,9 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
-	%PathFollow2D.progress += 120*delta 
-	%ant_AI.global_position = %PathFollow2D.global_position
-	%ant_AI.global_rotation = lerp(%ant_AI.global_rotation, %PathFollow2D.global_rotation, delta)
+	%PathFollow2D.progress_ratio +=0.045*delta 
+	%ant_AI.global_position = lerp(%ant_AI.global_position, %PathFollow2D.global_position, delta*10)
+	%ant_AI.global_rotation = lerp(%ant_AI.global_rotation, %PathFollow2D.global_rotation, delta*5)
 	
 	%local_mouse_pos.look_at(get_global_mouse_position())
 	
