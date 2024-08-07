@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bjbbtyryw1rjw"]
+[gd_scene load_steps=16 format=3 uid="uid://bjbbtyryw1rjw"]
 
 [ext_resource type="PackedScene" uid="uid://cc5vd3dk8pc6f" path="res://ant.tscn" id="1_1ccvl"]
 [ext_resource type="Script" path="res://RigidBody2D.gd" id="1_f74ot"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://b88t3hhfjrgha" path="res://ant_scene.png" id="4_d0x5c"]
 [ext_resource type="Texture2D" uid="uid://di0g6oryqvntu" path="res://anthill_inside.png" id="5_usth1"]
 [ext_resource type="Script" path="res://AnthillInside.gd" id="6_lybq2"]
+[ext_resource type="Script" path="res://ant_AI.gd" id="7_kaa5o"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ja04s"]
 friction = 0.1
@@ -173,13 +174,12 @@ polygon = PackedVector2Array(-47, -27, 30, -32, 56, -23, 99, 35, 189, 220, 269, 
 curve = SubResource("Curve2D_8k8wc")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
-unique_name_in_owner = true
-position = Vector2(882.924, 31.7892)
+position = Vector2(882.921, 31.787)
 rotation = -2.50931
 progress = 1576.94
+script = ExtResource("7_kaa5o")
 
 [node name="ant_AI" type="MeshInstance2D" parent="Path2D/PathFollow2D"]
-unique_name_in_owner = true
 top_level = true
 scale = Vector2(1.03806, 1.01565)
 
@@ -191,6 +191,47 @@ scale = Vector2(1.03806, 1.01565)
 mesh = SubResource("CapsuleMesh_yf267")
 
 [node name="Node2D" parent="Path2D/PathFollow2D/ant_AI" instance=ExtResource("1_1ccvl")]
+position = Vector2(0, -31.715)
+scale = Vector2(0.15, 0.15)
+
+[node name="PathFollow2D2" type="PathFollow2D" parent="Path2D"]
+position = Vector2(1238.41, 15.5931)
+rotation = -0.477831
+progress = 2598.46
+script = ExtResource("7_kaa5o")
+
+[node name="ant_AI" type="MeshInstance2D" parent="Path2D/PathFollow2D2"]
+top_level = true
+scale = Vector2(1.03806, 1.01565)
+
+[node name="ant_sAI" type="MeshInstance2D" parent="Path2D/PathFollow2D2/ant_AI"]
+visible = false
+position = Vector2(0, -25.48)
+rotation = 1.5708
+scale = Vector2(1.03806, 1.01565)
+mesh = SubResource("CapsuleMesh_yf267")
+
+[node name="Node2D" parent="Path2D/PathFollow2D2/ant_AI" instance=ExtResource("1_1ccvl")]
+position = Vector2(0, -31.715)
+scale = Vector2(0.15, 0.15)
+
+[node name="PathFollow2D3" type="PathFollow2D" parent="Path2D"]
+position = Vector2(-67, 535)
+rotation = -0.454689
+script = ExtResource("7_kaa5o")
+
+[node name="ant_AI" type="MeshInstance2D" parent="Path2D/PathFollow2D3"]
+top_level = true
+scale = Vector2(1.03806, 1.01565)
+
+[node name="ant_sAI" type="MeshInstance2D" parent="Path2D/PathFollow2D3/ant_AI"]
+visible = false
+position = Vector2(0, -25.48)
+rotation = 1.5708
+scale = Vector2(1.03806, 1.01565)
+mesh = SubResource("CapsuleMesh_yf267")
+
+[node name="Node2D" parent="Path2D/PathFollow2D3/ant_AI" instance=ExtResource("1_1ccvl")]
 position = Vector2(0, -31.715)
 scale = Vector2(0.15, 0.15)
 
