@@ -1,0 +1,58 @@
+[gd_scene load_steps=7 format=3 uid="uid://bs5d5ttrgk1w4"]
+
+[ext_resource type="Script" path="res://Ant_AI.gd" id="1_aktwm"]
+[ext_resource type="PackedScene" uid="uid://cc5vd3dk8pc6f" path="res://ant.tscn" id="2_n1c1y"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fuxkh"]
+friction = 0.1
+bounce = 1.0
+absorbent = true
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hgkp5"]
+radius = 25.0
+height = 91.0
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_fpwah"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(29.7, 21.175, 1)
+gravity = Vector3(0, -98, 0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3wim1"]
+size = Vector2(72, 9)
+
+[node name="Ant_AI" type="RigidBody2D"]
+position = Vector2(654, -233)
+collision_layer = 0
+collision_mask = 4
+mass = 0.2
+physics_material_override = SubResource("PhysicsMaterial_fuxkh")
+center_of_mass_mode = 1
+center_of_mass = Vector2(0.8, 0)
+linear_damp = 1.0
+script = ExtResource("1_aktwm")
+
+[node name="Node2D3" parent="." instance=ExtResource("2_n1c1y")]
+unique_name_in_owner = true
+scale = Vector2(0.15, 0.15)
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+position = Vector2(1, 10)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_hgkp5")
+
+[node name="local_mouse_pos3" type="Marker2D" parent="."]
+unique_name_in_owner = true
+
+[node name="GPUParticles2D3" type="GPUParticles2D" parent="."]
+process_material = SubResource("ParticleProcessMaterial_fpwah")
+
+[node name="Floor3" type="Area2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, 37)
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor3"]
+position = Vector2(-7, -4.5)
+shape = SubResource("RectangleShape2D_3wim1")

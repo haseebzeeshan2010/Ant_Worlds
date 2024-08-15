@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://bjbbtyryw1rjw"]
+[gd_scene load_steps=18 format=3 uid="uid://bjbbtyryw1rjw"]
 
 [ext_resource type="PackedScene" uid="uid://cc5vd3dk8pc6f" path="res://ant.tscn" id="1_1ccvl"]
 [ext_resource type="Script" path="res://RigidBody2D.gd" id="1_f74ot"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://di0g6oryqvntu" path="res://anthill_inside.png" id="5_usth1"]
 [ext_resource type="Script" path="res://AnthillInside.gd" id="6_lybq2"]
 [ext_resource type="Script" path="res://ant_AI.gd" id="7_kaa5o"]
+[ext_resource type="PackedScene" uid="uid://bs5d5ttrgk1w4" path="res://ant_ai_physics.tscn" id="8_xqvbq"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ja04s"]
 friction = 0.1
@@ -19,6 +20,12 @@ height = 91.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nd6fw"]
 size = Vector2(72, 9)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_e1ew2"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(29.7, 21.175, 1)
+gravity = Vector3(0, -98, 0)
 
 [sub_resource type="BoxMesh" id="BoxMesh_k8a5e"]
 size = Vector3(2000, 100, 1)
@@ -45,7 +52,7 @@ metadata/_edit_vertical_guides_ = [3633.0]
 
 [node name="Player" type="RigidBody2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(785, -203)
+position = Vector2(840, -147)
 collision_layer = 3
 collision_mask = 3
 mass = 0.2
@@ -75,6 +82,9 @@ shape = SubResource("RectangleShape2D_nd6fw")
 
 [node name="local_mouse_pos" type="Marker2D" parent="Player"]
 unique_name_in_owner = true
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="Player"]
+process_material = SubResource("ParticleProcessMaterial_e1ew2")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 visible = false
@@ -116,6 +126,7 @@ polygon = PackedVector2Array(1598, 539, 1700, 500, 1793, 423, 1923, 393, 2029, 3
 
 [node name="StaticBody2D3" type="StaticBody2D" parent="."]
 position = Vector2(1354, 0)
+collision_layer = 5
 physics_material_override = SubResource("PhysicsMaterial_ticoa")
 
 [node name="AntScene" type="Sprite2D" parent="StaticBody2D3"]
@@ -232,6 +243,9 @@ mesh = SubResource("CapsuleMesh_yf267")
 [node name="Node2D" parent="Path2D/PathFollow2D3/ant_AI" instance=ExtResource("1_1ccvl")]
 position = Vector2(0, -31.715)
 scale = Vector2(0.15, 0.15)
+
+[node name="Ant_AI" parent="." instance=ExtResource("8_xqvbq")]
+position = Vector2(955, -111)
 
 [connection signal="body_entered" from="Hole_Enter" to="StaticBody2D3/AnthillInside" method="_on_hole_enter_body_entered"]
 [connection signal="body_exited" from="Hole_Enter" to="StaticBody2D3/AnthillInside" method="_on_hole_enter_body_exited"]
