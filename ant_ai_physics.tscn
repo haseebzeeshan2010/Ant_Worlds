@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bs5d5ttrgk1w4"]
+[gd_scene load_steps=9 format=3 uid="uid://bs5d5ttrgk1w4"]
 
 [ext_resource type="Script" path="res://Ant_AI.gd" id="1_aktwm"]
 [ext_resource type="PackedScene" uid="uid://cc5vd3dk8pc6f" path="res://ant.tscn" id="2_n1c1y"]
@@ -7,6 +7,10 @@
 friction = 0.1
 bounce = 1.0
 absorbent = true
+
+[sub_resource type="SphereMesh" id="SphereMesh_yqlxk"]
+radius = 4.42
+height = 7.84
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hgkp5"]
 radius = 25.0
@@ -20,6 +24,10 @@ gravity = Vector3(0, -98, 0)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3wim1"]
 size = Vector2(72, 9)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gy4nt"]
+radius = 8.67
+height = 17.34
 
 [node name="Ant_AI" type="RigidBody2D"]
 position = Vector2(654, -233)
@@ -35,6 +43,13 @@ script = ExtResource("1_aktwm")
 [node name="Node2D3" parent="." instance=ExtResource("2_n1c1y")]
 unique_name_in_owner = true
 scale = Vector2(0.15, 0.15)
+
+[node name="Essen" type="MeshInstance2D" parent="Node2D3"]
+unique_name_in_owner = true
+visible = false
+position = Vector2(146.667, -60)
+scale = Vector2(6.66667, 6.66667)
+mesh = SubResource("SphereMesh_yqlxk")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
 position = Vector2(1, 10)
@@ -56,3 +71,19 @@ collision_mask = 4
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor3"]
 position = Vector2(-7, -4.5)
 shape = SubResource("RectangleShape2D_3wim1")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 32
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(13, -10)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_gy4nt")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

@@ -8,11 +8,10 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
-	print(change)
 	if change == true:
 		alph += 5*delta
 	else:
-		print("WHY")
+
 		alph -= 5*delta
 		
 	if alph < 0:
